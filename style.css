@@ -1,0 +1,79 @@
+@font-face {
+  font-family: cheri1;
+  src: url(fonts/CHERI___.TTF);
+}
+@font-face {
+  font-family: cheri2;
+  src: url(fonts/CHERL___.TTF);
+}
+body {
+  background-color: rgb(41, 35, 35);
+}
+#box1 {
+  font-family: cheri2;
+  font-size: 45px;
+  text-align: center;
+  padding: 30px 2px 30px 21px;
+  background-color: rgb(255, 196, 196);
+  border: rgb(255, 255, 255) solid;
+}
+#barra {
+  padding: 0.6% 0%;
+  position: fixed;
+  background-color: rgb(255, 140, 140);
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  font-weight: 100;
+  font-size: 20px;
+  color: white;
+  font-family: 'Libre Bodoni', serif;
+}
+#box2 {
+  font-family: 'Libre Bodoni', serif;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  width: 400px;
+  padding: 30px 450px 30px 21px;
+  float: right;
+}
+#box3 {
+  font-family: cheri1;
+  font-size: 25px;
+  height: 40px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+#box4 {
+  padding: 30px 700px 30px 420px;
+  border: rgb(255, 196, 196) solid;
+}
+#box5 {
+  font-family: cheri1;
+  font-size: 25px;
+  height: 40px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+#box6 {
+  font-family: 'Libre Bodoni', serif;
+  color: rgb(255, 255, 255);
+  padding: 30px 700px 100px 50px;
+}
+#box7 {
+  float: left;
+  padding: 80px 200px 30px 180px;
+}
+#box8 {
+  padding: 0px 100px 30px 50px;
+}
+#box9 {
+  font-family: 'Libre Bodoni', serif;
+  font-size: 20px;
+  height: 40px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+#box10 {
+  padding: 80px 200px 30px 180px;
+}
