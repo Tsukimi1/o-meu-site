@@ -34,7 +34,6 @@ body {
   color: rgb(255, 255, 255);
   font-size: 20px;
   width: 400px;
-  padding: 30px 450px 30px 21px;
   float: right;
 }
 #box3 {
@@ -45,7 +44,6 @@ body {
   color: rgb(255, 255, 255);
 }
 #box4 {
-  padding: 30px 700px 30px 420px;
   border: rgb(255, 196, 196) solid;
 }
 #box5 {
@@ -56,16 +54,15 @@ body {
   color: rgb(255, 255, 255);
 }
 #box6 {
+  text-align: center;
   font-family: 'Libre Bodoni', serif;
   color: rgb(255, 255, 255);
-  padding: 30px 700px 100px 50px;
+  padding-bottom: 40px;
 }
 #box7 {
   float: left;
-  padding: 80px 200px 30px 180px;
 }
 #box8 {
-  padding: 0px 100px 30px 50px;
 }
 #box9 {
   font-family: 'Libre Bodoni', serif;
@@ -75,5 +72,16 @@ body {
   color: rgb(255, 255, 255);
 }
 #box10 {
-  padding: 80px 200px 30px 180px;
+  float: right;
+}
+
+.apresentacao {
+  justify-content: space-evenly;
+  display: flex;
+  flex-wrap: nowrap;
+}
+.desenhos {
+  justify-content: space-evenly;
+  display: flex;
+  flex-wrap: wrap;
 }
