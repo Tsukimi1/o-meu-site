@@ -7,45 +7,24 @@
   src: url(fonts/CHERL___.TTF);
 }
 body {
+  max-width: 1920px;
   background-color: rgb(41, 35, 35);
 }
-#box1 {
-  font-family: cheri2;
-  font-size: 45px;
-  text-align: center;
-  padding: 30px 2px 30px 21px;
-  background-color: rgb(255, 196, 196);
-  border: rgb(255, 255, 255) solid;
-}
-#barra {
-  padding: 0.6% 0%;
-  position: fixed;
-  background-color: rgb(255, 140, 140);
-  bottom: 0;
-  width: 100%;
-  text-align: center;
-  font-weight: 100;
-  font-size: 20px;
-  color: white;
-  font-family: 'Libre Bodoni', serif;
-}
+
 #box2 {
   font-family: 'Libre Bodoni', serif;
   color: rgb(255, 255, 255);
   font-size: 20px;
   width: 400px;
-  float: right;
+  padding: 70px 0px 0px 0px;
 }
-#box3 {
-  font-family: cheri1;
+#about {
+  font-family: 'Libre Bodoni', serif;
   font-size: 25px;
   height: 40px;
-  text-align: center;
   color: rgb(255, 255, 255);
 }
-#box4 {
-  border: rgb(255, 196, 196) solid;
-}
+
 #box5 {
   font-family: cheri1;
   font-size: 25px;
@@ -59,11 +38,6 @@ body {
   color: rgb(255, 255, 255);
   padding-bottom: 40px;
 }
-#box7 {
-  float: left;
-}
-#box8 {
-}
 #box9 {
   font-family: 'Libre Bodoni', serif;
   font-size: 20px;
@@ -71,17 +45,13 @@ body {
   text-align: center;
   color: rgb(255, 255, 255);
 }
-#box10 {
-  float: right;
-}
 
 .apresentacao {
   justify-content: space-evenly;
   display: flex;
   flex-wrap: nowrap;
 }
-.desenhos {
-  justify-content: space-evenly;
-  display: flex;
-  flex-wrap: wrap;
+
+#barrinha {
+  font-family: 'Libre Bodoni', serif;
 }
