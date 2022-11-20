@@ -8,12 +8,12 @@
 }
 body {
   max-width: 1920px;
-  background-color: rgb(41, 35, 35);
+  background-image: url('images/fundo3.png');
 }
 
 #box2 {
-  font-family: 'Libre Bodoni', serif;
-  color: rgb(255, 255, 255);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: rgb(71, 27, 29);
   font-size: 20px;
   width: 400px;
   padding: 70px 0px 0px 0px;
